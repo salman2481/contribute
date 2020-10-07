@@ -4,7 +4,7 @@
 using namespace std;
 int main()
 {
-    int a, b, sum, sub, mul;
+    int a, b, sum, sub, mul, div;
     cout << "Enter the two numbers you want to add: ";
     cin >> a >> b;
     sum = (a + b);
@@ -19,6 +19,10 @@ int main()
     cin >> a >> b;
     mul = (a * b);
     cout << "The multiplication of " << a << " and " << b << "are: " << mul;
+    cout << "Enter the two numbers you want to divide: ";
+    cin >> a >> b;
+    div = (a / b);
+    cout << "The division of " << a << " and " << b << "are: " << div;
     system ("cls");
     return 0;
 }
